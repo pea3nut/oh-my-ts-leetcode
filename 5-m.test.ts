@@ -65,5 +65,5 @@ test('longestPalindrome', () => {
     Expect(longestPalindrome('qawrhgwrsaawergqawabba')).toBe('abba');
     Expect(longestPalindrome('qawrhgwrsaawergqawabcba')).toBe('abcba');
     Expect(longestPalindrome('a')).toBe('a');
-    Expect(longestPalindrome('ac')).toBe('c');
+    Expect(longestPalindrome('ac')).toBe('a');
 });
